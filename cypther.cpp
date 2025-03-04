@@ -8,10 +8,10 @@ void scramble(std::string& inputString) {
     char letters[] = "abcdefghijklmnopqrstuvwxyz";
     char x; 
     int len = inputString.length();
+    
+    srand(time(0));
 
     for(int i = 0; i < len; i++) {
-        
-        srand(time(0));
 
         x = letters[rand() % 26];
         
