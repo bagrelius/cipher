@@ -1,0 +1,41 @@
+# Compiled object files
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build directories
+/build/
+/bin/
+/debug/
+/release/
+/dist/
+
+# IDE specific files
+.vscode/
+.idea/
+*.code-workspace
