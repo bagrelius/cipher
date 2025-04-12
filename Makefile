@@ -1,15 +1,15 @@
 CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Werror -Wextra -g
 LDFLAGS = -lcryptopp
-TARGET = cypher
+TARGET = cipher
 
 all: $(TARGET)
 
-$(TARGET): cypther.o
-	$(CXX) $(CXXFLAGS) -o $(TARGET) cypther.o $(LDFLAGS)
+$(TARGET): cipher.o
+	$(CXX) $(CXXFLAGS) -o $(TARGET) cipher.o $(LDFLAGS)
 
-cypther.o: cypther.cpp
-	$(CXX) $(CXXFLAGS) -c cypther.cpp
+cipher.o: cipher.cpp
+	$(CXX) $(CXXFLAGS) -c cipher.cpp
 
 # crypt.o: crypt.cpp crypt.h
 # 	$(CXX) $(CXXFLAGS) -c crypt.cpp
