@@ -1,4 +1,4 @@
-# Cypher
+# Cipher
 
 Cypher is a command-line tool for encrypting and decrypting files using AES encryption in CBC mode. It allows users to securely encrypt files and later decrypt them using a specified key and initialization vector (IV).
 
@@ -26,7 +26,7 @@ Cypher is a command-line tool for encrypting and decrypting files using AES encr
 ## Usage
 
 ```
-./cypher -f <filename> [-k <key>] [-i <iv>] [-d <decrypt extension>]
+./cipher -f <filename> [-k <key>] [-i <iv>] [-d <decrypt extension>]
 ```
 
 ## Options
@@ -39,9 +39,9 @@ Cypher is a command-line tool for encrypting and decrypting files using AES encr
 
 1. Encrypting a file 
    ```
-   ./cypher -f test.txt -k "1234567890ABCDEF" -i "ABCDEF1234567890"
+   ./cipher -f test.txt -k "1234567890ABCDEF" -i "ABCDEF1234567890"
    ```
 2. Decrypt a file
    ```
-   ./cypher -f test.enc -d .txt
+   ./cipher -f test.enc -d .txt
    ```
