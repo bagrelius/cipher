@@ -30,10 +30,10 @@ Cypher is a command-line tool for encrypting and decrypting files using AES encr
 ```
 
 ## Options
--f <filename>: The name of the file to encrypt or decrypt (required).
--k <key>: The encryption/decryption key (16 bytes). Default: 0123456789ABCDEF.
--i <iv>: The initialization vector (16 bytes). Default: FEDCBA9876543210.
--d <decrypt_extension>: Decrypt the file and save it with the specified extension (eg., .txt).
+- -f <filename>: The name of the file to encrypt or decrypt (required).
+- -k <key>: The encryption/decryption key (16 bytes). Default: 0123456789ABCDEF.
+- -i <iv>: The initialization vector (16 bytes). Default: FEDCBA9876543210.
+- -d <decrypt_extension>: Decrypt the file and save it with the specified extension (eg., .txt).
 
 ## Examples
 
