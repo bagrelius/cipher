@@ -46,7 +46,7 @@ int main(int argc, char* argv[]) {
                 extension = trim(extension); // Trim whitespace
                 break;
             default:
-                std::cerr << "Usage: " << argv[0] << " -f <filename> [-k <key>] [-i <iv>] [-d <decrypt extension>]" << std::endl;
+                std::cerr << "Usage: " << argv[0] << " -f <filename> [-k <key>] [-i <iv>] [-d <decrypt_extension>]" << std::endl;
                 return 1;
         }
     }
